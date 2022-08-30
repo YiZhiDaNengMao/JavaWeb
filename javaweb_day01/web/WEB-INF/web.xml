@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <!--访问ServletDemo类-->
+    <servlet>
+        <servlet-name>servlet01</servlet-name>
+        <servlet-class>web.servlet.ServletDemo01</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <!--映射地址：ServletDemo类对应的资源访问方式-->
+    <servlet-mapping>
+        <servlet-name>servlet01</servlet-name>
+        <url-pattern>/servlet01</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>servlet02</servlet-name>
+        <servlet-class>web.servlet.ServletDemo02</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servlet02</servlet-name>
+        <url-pattern>/servlet02</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>http03</servlet-name>
+        <servlet-class>web.servlet.HttpServletDemo03</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>http03</servlet-name>
+        <url-pattern>/http03</url-pattern>
+    </servlet-mapping>
+</web-app>
