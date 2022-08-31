@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/javaweb.iml" filepath="$PROJECT_DIR$/javaweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb_day01/javaweb_day01.iml" filepath="$PROJECT_DIR$/javaweb_day01/javaweb_day01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb_day02/javaweb_day02.iml" filepath="$PROJECT_DIR$/javaweb_day02/javaweb_day02.iml" />
     </modules>
   </component>
 </project>

@@ -2,12 +2,30 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="javaweb_day01" />
+      <artifact name="javaweb_day02" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60f9399e-4b47-4e89-a3a7-3cb833daaae0" name="Changes" comment="2022年8月30日20:12:04&#10;javaweb_day01">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/javaweb_day02.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day02/javaweb_day02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day02/node/javawebDay02.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day02/src/bai.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day02/src/com/star/web/a_servlet/ServletDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day02/src/com/star/web/a_servlet/ServletDemo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day02/src/com/star/web/b_servletCoonfig/ServletConfigDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day02/src/com/star/web/c_servletContext/ServletContextDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day02/src/com/star/web/c_servletContext/ServletContextDemo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day02/src/com/star/web/c_servletContext/ServletContextDemo03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day02/src/com/star/web/c_servletContext/ServletContextDemo04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day02/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaweb_day01/javaweb_day01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb_day01/javaweb_day01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaweb_day01/node/JavaWebDay01.md" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb_day01/node/javawebDay01.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaweb_day01/src/web/servlet/ServletDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb_day01/src/web/servlet/ServletDemo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/javaweb_day01_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/javaweb_day01_war_exploded/index.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +70,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "D:/workspace_idea/javaweb/javaweb_day01/node",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/workspace_idea/javaweb/javaweb_day02",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Facets",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -76,9 +94,9 @@
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="update-resources" />
       <deployment>
-        <artifact name="javaweb_day01">
+        <artifact name="javaweb_day02">
           <settings>
-            <option name="CONTEXT_PATH" value="/javaweb_day01" />
+            <option name="CONTEXT_PATH" value="/javaweb_day02" />
           </settings>
         </artifact>
       </deployment>
@@ -156,7 +174,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="javaweb_day01" />
+          <artifact name="javaweb_day02" />
         </option>
       </method>
     </configuration>
@@ -170,6 +188,8 @@
       <option name="presentableId" value="Default" />
       <updated>1661839941008</updated>
       <workItem from="1661839942531" duration="17171000" />
+      <workItem from="1661862541644" duration="933000" />
+      <workItem from="1661908262767" duration="21735000" />
     </task>
     <task id="LOCAL-00001" summary="2022年8月30日20:12:04&#10;javaweb_day01">
       <created>1661861788297</created>
@@ -205,5 +225,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2022年8月30日20:12:04&#10;javaweb_day01" />
     <option name="LAST_COMMIT_MESSAGE" value="2022年8月30日20:12:04&#10;javaweb_day01" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

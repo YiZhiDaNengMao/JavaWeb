@@ -14,7 +14,7 @@ import java.io.IOException;
 public class ServletDemo01 implements Servlet {
 
     /*
-        初始化方法 - 创建servlet对象，就进行初始化操作
+        初始化方法 - 创建servlet对象后进行初始化操作
         只执行一次，在处理请求前完成一些初始化操作，例如连接数据库，获取配置信息...
     */
     @Override

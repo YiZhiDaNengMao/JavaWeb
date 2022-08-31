@@ -24,7 +24,7 @@
     2）广域网（万维网）：互联网
 
 5.系统架构
-    
+
     1）基础结构
         C/S架构
         B/S架构
@@ -112,7 +112,6 @@
       在xml文件中编写: <Context docBase="D:\hello" />
         * 虚拟目录：xml文件的名称
 
-
 3.Java的Web工程 -> 写java代码的地方
 
     目录结构:
@@ -126,9 +125,8 @@
         
         |- 普通文件夹(资源) -> 部署在web应用下是不识别的资源
 
-
 4.Tomcat的web应用
-    
+
     目录结构
         javaweb_day01_war_exploded -> web应用名
 
@@ -145,7 +143,7 @@
 1.全称：server applet => 服务器小程序
 
 2.使用Servlet的步骤
-    
+
     1）添加javaEE规范
     2）定义一个类,实现Servlet接口
     3）重写接口中的抽象方法
@@ -183,3 +181,14 @@
 
     5)调用对象中的service方法
 
+4.生命周期
+
+   1）创建Servlet实例
+      web容器负责加载Servlet，当web容器启动时或者是在第一次使用这个Servlet时， 容器会负责创建Servlet实例，
+      但是用户必须通过部署描述符（web.xml）指定Servlet的位置，也就是Servlet所在的类名称，成功加载后，
+      web容器会通过反射的方式对Servlet进行实例化。
+
+   2）WEB容器调用Servlet的init()方法，对Servlet进行初始化
+      在Servlet实例化之后，Servlet容器会调用init()方法，来初始化该对象，
+   主要是为了让Servlet对象在处理客户请求前可以完成一些初始化的工作，
+      例如，建立数据库的连接，获取配置信息等。对于每一个Servlet实例，init()方法只能被调用一次。
