@@ -16,6 +16,7 @@ public class ServletContextDemo03 extends HttpServlet {
         context.setAttribute("date",new Date());
         context.setAttribute("name","派大星");
 
+
     }
 
     @Override

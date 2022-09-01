@@ -1,0 +1,7 @@
+用户注册案例需求：
+	1.编写register.html注册页面
+		username & password & email &  realname & gender & birthday 输入框
+	2.使用Druid数据库连接池技术,操作mysql数据库中的user表
+	3.使用JdbcTemplate技术封装JDBC
+	4.使用BeanUtils工具封装对象
+	5.注册成功,查看数据是否成功添加到数据库中

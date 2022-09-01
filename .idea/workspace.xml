@@ -2,30 +2,61 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="javaweb_day02" />
+      <artifact name="javaweb03_register" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60f9399e-4b47-4e89-a3a7-3cb833daaae0" name="Changes" comment="2022年8月30日20:12:04&#10;javaweb_day01">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/javaweb_day02.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day02/javaweb_day02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day02/node/javawebDay02.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day02/src/bai.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day02/src/com/star/web/a_servlet/ServletDemo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day02/src/com/star/web/a_servlet/ServletDemo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day02/src/com/star/web/b_servletCoonfig/ServletConfigDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day02/src/com/star/web/c_servletContext/ServletContextDemo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day02/src/com/star/web/c_servletContext/ServletContextDemo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day02/src/com/star/web/c_servletContext/ServletContextDemo03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day02/src/com/star/web/c_servletContext/ServletContextDemo04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day02/web/WEB-INF/web.xml" afterDir="false" />
+    <list default="true" id="60f9399e-4b47-4e89-a3a7-3cb833daaae0" name="Changes" comment="2022年8月31日20:31:36&#10;javaweb_day02">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/javaweb03_register.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/javaweb04_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/javaweb_day03.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb03_register/javaweb03_register.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb03_register/src/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb03_register/src/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb03_register/src/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb03_register/src/servlet/RegisterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb03_register/src/util/DruidUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb03_register/src/util/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb03_register/web/WEB-INF/lib/commons-beanutils-1.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb03_register/web/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb03_register/web/WEB-INF/lib/druid-1.1.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb03_register/web/WEB-INF/lib/mysql-connector-java-8.0.29.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb03_register/web/WEB-INF/lib/spring-beans-4.3.21.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb03_register/web/WEB-INF/lib/spring-core-4.3.21.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb03_register/web/WEB-INF/lib/spring-jdbc-4.3.21.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb03_register/web/WEB-INF/lib/spring-tx-4.3.21.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb03_register/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb03_register/web/img/regist_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb03_register/web/img/yanzhengma.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb03_register/web/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb03_register/web/需求.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb04_login/javaweb04_login.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb04_login/web/WEB-INF/lib/commons-beanutils-1.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb04_login/web/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb04_login/web/WEB-INF/lib/druid-1.1.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb04_login/web/WEB-INF/lib/mysql-connector-java-8.0.29.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb04_login/web/WEB-INF/lib/spring-beans-4.3.21.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb04_login/web/WEB-INF/lib/spring-core-4.3.21.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb04_login/web/WEB-INF/lib/spring-jdbc-4.3.21.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb04_login/web/WEB-INF/lib/spring-tx-4.3.21.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb04_login/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day03/javaweb_day03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day03/src/a_request/ServletRequestDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day03/src/a_request/ServletRequestDemo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day03/src/a_request/ServletRequestDemo03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day03/src/a_request/ServletRequestDemo04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day03/src/a_request/ServletRequestDemo05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day03/src/a_request/ServletRequestDemo06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day03/src/b_forward/ForwardServlet01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day03/src/b_forward/ForwardServlet02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day03/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day03/web/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaweb_day01/javaweb_day01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb_day01/javaweb_day01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaweb_day01/node/JavaWebDay01.md" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb_day01/node/javawebDay01.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaweb_day01/src/web/servlet/ServletDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb_day01/src/web/servlet/ServletDemo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/javaweb_day01_war_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/javaweb_day01_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaweb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaweb_day02/src/com/star/web/c_servletContext/ServletContextDemo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb_day02/src/com/star/web/c_servletContext/ServletContextDemo02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaweb_day02/src/com/star/web/c_servletContext/ServletContextDemo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb_day02/src/com/star/web/c_servletContext/ServletContextDemo03.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +71,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -65,38 +98,45 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Project.color": "8e5aff",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Project.color": "34215d",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/workspace_idea/javaweb/javaweb_day02",
+    "last_opened_file_path": "D:/workspace_idea/javaweb/javaweb04_login/web/WEB-INF",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "File.Encoding"
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Font"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace_idea\javaweb\javaweb_day01\node" />
-      <recent name="D:\workspace_idea\javaweb\javaweb_day01\web" />
+      <recent name="D:\workspace_idea\javaweb\javaweb04_login\web\WEB-INF" />
+      <recent name="D:\workspace_idea\javaweb\javaweb03_register\web\WEB-INF\lib" />
+      <recent name="D:\workspace_idea\javaweb\javaweb03_register\web" />
+      <recent name="D:\workspace_idea\javaweb\javaweb03_register\src" />
+      <recent name="D:\workspace_idea\javaweb" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace_idea\javaweb\javaweb_day01\web" />
+      <recent name="D:\workspace_idea\javaweb\javaweb03_register\web\WEB-INF\lib" />
+      <recent name="D:\workspace_idea\javaweb\javaweb_day03_register\src\b_register\util" />
+      <recent name="D:\workspace_idea\javaweb\javaweb_day03\web\WEB-INF" />
+      <recent name="D:\workspace_idea\javaweb\javaweb_day03\src" />
+      <recent name="D:\workspace_idea\javaweb\javaweb_day03\src\b_register\utils" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.76" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.76" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="37cae5b9-e8b2-4949-9172-aafa37fbc09c" />
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATING_POLICY" value="update-resources" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="javaweb_day02">
+        <artifact name="javaweb04_login">
           <settings>
-            <option name="CONTEXT_PATH" value="/javaweb_day02" />
+            <option name="CONTEXT_PATH" value="/javaweb04_login" />
           </settings>
         </artifact>
       </deployment>
@@ -174,7 +214,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="javaweb_day02" />
+          <artifact name="javaweb04_login" />
         </option>
       </method>
     </configuration>
@@ -190,6 +230,9 @@
       <workItem from="1661839942531" duration="17171000" />
       <workItem from="1661862541644" duration="933000" />
       <workItem from="1661908262767" duration="21735000" />
+      <workItem from="1661948986898" duration="367000" />
+      <workItem from="1661949391804" duration="73000" />
+      <workItem from="1661994516536" duration="30134000" />
     </task>
     <task id="LOCAL-00001" summary="2022年8月30日20:12:04&#10;javaweb_day01">
       <created>1661861788297</created>
@@ -205,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661862283449</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2022年8月31日20:31:36&#10;javaweb_day02">
+      <created>1661949123768</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661949123768</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +274,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2022年8月30日20:12:04&#10;javaweb_day01" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022年8月30日20:12:04&#10;javaweb_day01" />
+    <MESSAGE value="2022年8月31日20:31:36&#10;javaweb_day02" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022年8月31日20:31:36&#10;javaweb_day02" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

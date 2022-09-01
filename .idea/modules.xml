@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/javaweb.iml" filepath="$PROJECT_DIR$/javaweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb03_register/javaweb03_register.iml" filepath="$PROJECT_DIR$/javaweb03_register/javaweb03_register.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb04_login/javaweb04_login.iml" filepath="$PROJECT_DIR$/javaweb04_login/javaweb04_login.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb_day01/javaweb_day01.iml" filepath="$PROJECT_DIR$/javaweb_day01/javaweb_day01.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb_day02/javaweb_day02.iml" filepath="$PROJECT_DIR$/javaweb_day02/javaweb_day02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb_day03/javaweb_day03.iml" filepath="$PROJECT_DIR$/javaweb_day03/javaweb_day03.iml" />
     </modules>
   </component>
 </project>
