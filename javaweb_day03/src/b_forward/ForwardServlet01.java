@@ -32,6 +32,6 @@ public class ForwardServlet01 extends HttpServlet {
 //        rd.forward(request,response);
 
         //合并以上操作
-        request.getRequestDispatcher("/ForwardServlet02").forward(request,response);
+        request.getRequestDispatcher("/ServletResponseDemo02").forward(request,response);
     }
 }

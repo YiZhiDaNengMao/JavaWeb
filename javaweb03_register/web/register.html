@@ -79,6 +79,15 @@
 				color: white;
 			}
 		</style>
+		<script src="js/jquery-1.11.0.min.js"></script>
+		<script>
+			$(function () {
+				$("#img_check").click(function (){
+					// $("img_check").prop("src","/javaweb03_register/CheckImgServlet?random=" + Math.random());
+					this.src = "/javaweb03_register/CheckImgServlet?random=" + Math.random();
+				});
+			});
+		</script>
 	</head>
 	<body>
 		<div class="rg_layout">
@@ -129,7 +138,7 @@
 						<tr>
 							<td class="td_left"><label for="checkcode">验证码</label></td>
 							<td class="td_right"><input type="text" name="checkcode" id="checkcode" placeholder="请输入验证码">
-								<img id="img_check" src="img/yanzhengma.png">
+								<img id="img_check" src="/javaweb03_register/CheckImgServlet">
 							</td>
 						</tr>
 						<tr>

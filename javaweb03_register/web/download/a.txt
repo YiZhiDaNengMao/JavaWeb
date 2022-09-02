@@ -1,0 +1,49 @@
+回顾：
+	服务器端和数据库的连接
+web工程部署到tomcat中过程：
+	src：编译后部署到 appName/WEB-INF/classes
+	WebRoot/WebContent: 直接部署到 appName
+	工程下的文件：不可以部署到tomcat中
+	
+Servlet运行过程：
+	客户端发送请求: url
+	Tomcat: 1、解析资源路径, 应用名 /web02
+						  资源名 /addemp.html    /list
+			2、创建Servlet对象
+				实例化，初始化init，就绪service，销毁destroy
+			3、创建request、response(空的对象)
+			   同时将客户端的请求信息封装到request中
+			4、service(request,response)
+				service(httpRequest, httpResponse)
+				   httpRequest.getMethod();
+				   		doGet/doPost
+重定向：302			
+	response.sendRedirect('url')
+==========================
+精确匹配
+通配符匹配
+后缀匹配 *.do 
+	
+案例需求：使用一个EmpServlet完成所有的emp管理操作
+		使用分层结构
+	
+ServletContext 上下文	 重要！重要！重要！
+1、
+2、
+3、域 - 全局
+  ServletContext -> 一个应用中只有一个ServletContext对象
+	
+记录访问量	
+	xxservlet  访问量 + 1
+	在页面直接显示当前访问量总数
+	
+Response:	
+	响应行
+	响应头
+	响应体
+	
+	
+	
+	
+	
+	

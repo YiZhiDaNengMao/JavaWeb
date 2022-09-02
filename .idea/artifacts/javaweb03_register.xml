@@ -7,6 +7,16 @@
         <element id="directory" name="classes">
           <element id="module-output" name="javaweb03_register" />
         </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/javaweb03_register/web/WEB-INF/lib/druid-1.1.16.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/javaweb03_register/web/WEB-INF/lib/commons-logging-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/javaweb03_register/web/WEB-INF/lib/commons-beanutils-1.8.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/javaweb03_register/web/WEB-INF/lib/spring-tx-4.3.21.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/javaweb03_register/web/WEB-INF/lib/spring-core-4.3.21.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/javaweb03_register/web/WEB-INF/lib/spring-jdbc-4.3.21.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/javaweb03_register/web/WEB-INF/lib/mysql-connector-java-8.0.29.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/javaweb03_register/web/WEB-INF/lib/spring-beans-4.3.21.RELEASE.jar" />
+        </element>
       </element>
     </root>
   </artifact>
