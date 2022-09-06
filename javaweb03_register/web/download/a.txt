@@ -1,4 +1,4 @@
-回顾：
+﻿回顾：
 	服务器端和数据库的连接
 web工程部署到tomcat中过程：
 	src：编译后部署到 appName/WEB-INF/classes

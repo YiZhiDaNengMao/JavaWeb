@@ -2,130 +2,37 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="javaweb03_register" />
-      <artifact name="javaweb04_login" />
+      <artifact name="javaweb_day05" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60f9399e-4b47-4e89-a3a7-3cb833daaae0" name="Changes" comment="2022年9月1日20:59:20&#10;javaweb_day03">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/javaweb_day04.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb03_register/src/servlet/CheckImgServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb03_register/src/servlet/DownLoadServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb03_register/src/util/DownLoadUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb03_register/web/WEB-INF/new_words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb03_register/web/download.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb03_register/web/download/a.flv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb03_register/web/download/a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb03_register/web/download/a.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb03_register/web/download/a.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb03_register/web/download/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb03_register/web/download/a.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb03_register/web/download/美女.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb03_register/web/js/jquery-1.11.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb03_register/web/js/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb04_login/src/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb04_login/src/servlet/FailServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb04_login/src/servlet/SuccessServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb04_login/src/test/UserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb04_login/web/WEB-INF/lib/commons-beanutils-1.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb04_login/web/WEB-INF/lib/druid-1.1.16.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb04_login/web/WEB-INF/lib/mysql-connector-java-8.0.29.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb04_login/web/WEB-INF/lib/spring-beans-4.3.21.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb04_login/web/WEB-INF/lib/spring-core-4.3.21.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb04_login/web/WEB-INF/lib/spring-jdbc-4.3.21.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb04_login/web/WEB-INF/lib/spring-tx-4.3.21.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day04/javaweb_day04.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day04/src/servlet/ServletResponseDemo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day04/src/servlet/ServletResponseDemo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day04/src/servlet/ServletResponseDemo03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day04/src/servlet/ServletResponseDemo04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day04/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day04/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/javaweb03_register/WEB-INF/classes/dao/UserDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/javaweb03_register/WEB-INF/classes/servlet/CheckImgServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/javaweb03_register/WEB-INF/new_words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/javaweb03_register/js/jquery-1.11.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/javaweb03_register/js/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/javaweb04_login/WEB-INF/classes/bean/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/javaweb04_login/WEB-INF/classes/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/javaweb04_login/WEB-INF/classes/dao/impl/UserDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/javaweb04_login/WEB-INF/classes/servlet/FailServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/javaweb04_login/WEB-INF/classes/servlet/LoginServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/javaweb04_login/WEB-INF/classes/servlet/SuccessServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/javaweb04_login/WEB-INF/classes/test/UserTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/javaweb04_login/WEB-INF/classes/util/DruidUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/javaweb04_login/WEB-INF/classes/util/druid.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/javaweb04_login/WEB-INF/lib/commons-beanutils-1.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/javaweb04_login/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/javaweb04_login/WEB-INF/lib/druid-1.1.16.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/javaweb04_login/WEB-INF/lib/mysql-connector-java-8.0.29.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/javaweb04_login/WEB-INF/lib/spring-beans-4.3.21.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/javaweb04_login/WEB-INF/lib/spring-core-4.3.21.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/javaweb04_login/WEB-INF/lib/spring-jdbc-4.3.21.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/javaweb04_login/WEB-INF/lib/spring-tx-4.3.21.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/javaweb04_login/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/javaweb04_login/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/javaweb04_login/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/javaweb04_login/需求.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/javaweb_day04/WEB-INF/classes/servlet/ServletResponseDemo01.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/javaweb_day04/WEB-INF/classes/servlet/ServletResponseDemo02.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/javaweb_day04/WEB-INF/classes/servlet/ServletResponseDemo03.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/javaweb_day04/WEB-INF/classes/servlet/ServletResponseDemo04.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/javaweb_day04/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/javaweb_day04/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaweb03_register/dao/UserDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaweb03_register/servlet/CheckImgServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaweb04_login/bean/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaweb04_login/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaweb04_login/dao/impl/UserDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaweb04_login/servlet/FailServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaweb04_login/servlet/LoginServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaweb04_login/servlet/SuccessServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaweb04_login/test/UserTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaweb04_login/util/DruidUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaweb04_login/util/druid.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaweb_day04/servlet/ServletResponseDemo01.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaweb_day04/servlet/ServletResponseDemo02.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaweb_day04/servlet/ServletResponseDemo03.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaweb_day04/servlet/ServletResponseDemo04.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/javaweb03_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/javaweb03_register.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/javaweb04_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/javaweb04_login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
+    <list default="true" id="60f9399e-4b47-4e89-a3a7-3cb833daaae0" name="Changes" comment="2022年9月2日21:00:35&#10;javaweb_day04.xml">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/javaweb_day05.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day04/src/CookieServletTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day05/javaweb_day05.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day05/src/servlet/a_cookie/CookieServlet01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day05/src/servlet/a_cookie/CookieServlet02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day05/src/servlet/a_cookie/CookieServlet03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day05/src/servlet/a_cookie/CookieServlet04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day05/src/servlet/a_cookie/CookieServlet05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day05/src/servlet/a_cookie/CookieServlet06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day05/src/servlet/a_cookie/CookieServletDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day05/src/servlet/b_session/SessionServlet01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day05/src/servlet/b_session/SessionServlet02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day05/src/servlet/b_session/SessionServlet03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day05/src/servlet/b_session/SessionServlet04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day05/src/servlet/b_session/SessionServlet05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day05/src/test/test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day05/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day05/web/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaweb03_register/src/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb03_register/src/dao/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaweb03_register/web/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb03_register/web/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaweb03_register/web/需求.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaweb04_login/javaweb04_login.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb04_login/javaweb04_login.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaweb04_login/src/bean/user.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaweb04_login/src/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb04_login/src/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaweb04_login/src/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb04_login/src/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaweb04_login/src/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb04_login/src/servlet/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaweb04_login/src/util/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb04_login/src/util/druid.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaweb04_login/web/WEB-INF/lib/druid-1.0.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaweb04_login/web/WEB-INF/lib/mchange-commons-java-0.2.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaweb04_login/web/WEB-INF/lib/mysql-connector-java-5.1.37-bin.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaweb04_login/web/WEB-INF/lib/spring-beans-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaweb04_login/web/WEB-INF/lib/spring-core-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaweb04_login/web/WEB-INF/lib/spring-jdbc-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaweb04_login/web/WEB-INF/lib/spring-tx-5.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaweb04_login/web/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb04_login/web/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaweb_day02/javaweb_day02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb_day02/javaweb_day02.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaweb_day03/javaweb_day03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb_day03/javaweb_day03.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaweb_day03/src/b_forward/ForwardServlet01.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb_day03/src/b_forward/ForwardServlet01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaweb_day03/web/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb_day03/web/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/javaweb03_register/WEB-INF/classes/dao/impl/UserDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/javaweb03_register/WEB-INF/classes/servlet/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/javaweb03_register/WEB-INF/classes/servlet/RegisterServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/javaweb03_register/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/javaweb03_register/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/javaweb03_register/需求.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/javaweb_day02/WEB-INF/classes/com/star/web/c_servletContext/ServletContextDemo03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/javaweb_day02/WEB-INF/classes/com/star/web/c_servletContext/ServletContextDemo03.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/javaweb_day03/WEB-INF/classes/b_forward/ForwardServlet01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/javaweb_day03/WEB-INF/classes/b_forward/ForwardServlet01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/javaweb_day03/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/javaweb_day03/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaweb03_register/dao/impl/UserDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaweb03_register/servlet/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaweb03_register/servlet/RegisterServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaweb_day02/com/star/web/c_servletContext/ServletContextDemo03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaweb_day02/com/star/web/c_servletContext/ServletContextDemo03.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaweb_day03/b_forward/ForwardServlet01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaweb_day03/b_forward/ForwardServlet01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaweb03_register/javaweb03_register.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb03_register/javaweb03_register.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaweb03_register/src/servlet/DownLoadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb03_register/src/servlet/DownLoadServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaweb03_register/web/download.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb03_register/web/download.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaweb03_register/web/download/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb03_register/web/download/a.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/javaweb_day04/WEB-INF/classes/servlet/ServletResponseDemo03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/javaweb_day04/WEB-INF/classes/servlet/ServletResponseDemo03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaweb_day04/servlet/ServletResponseDemo03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaweb_day04/servlet/ServletResponseDemo03.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,8 +48,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -167,28 +74,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Project.color": "8e5aff",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/workspace_idea/javaweb/javaweb03_register/src/util",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Facets",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
-    "spring.configuration.checksum": "d41d8cd98f00b204e9800998ecf8427e"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Project.color&quot;: &quot;8e5aff&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/workspace_idea/javaweb/javaweb03_register/web/download&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;d41d8cd98f00b204e9800998ecf8427e&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace_idea\javaweb\javaweb03_register\src\util" />
       <recent name="D:\workspace_idea\javaweb\javaweb03_register\web\download" />
+      <recent name="D:\workspace_idea\javaweb\javaweb03_register\src\util" />
       <recent name="D:\workspace_idea\javaweb\javaweb03_register\web\WEB-INF" />
       <recent name="D:\workspace_idea\javaweb\javaweb03_register\web" />
       <recent name="D:\workspace_idea\javaweb\javaweb03_register\src\servlet" />
@@ -201,19 +109,27 @@
       <recent name="D:\workspace_idea\javaweb\javaweb_day03\src\b_register\utils" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.76">
+    <configuration name="test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.test01" />
+      <module name="javaweb_day05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 8.5.76" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.76" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="2d72af8c-a3b0-451d-b663-8b8621dde876" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="javaweb03_register">
+        <artifact name="javaweb_day05">
           <settings>
-            <option name="CONTEXT_PATH" value="/javaweb03_register" />
-          </settings>
-        </artifact>
-        <artifact name="javaweb04_login">
-          <settings>
-            <option name="CONTEXT_PATH" value="/javaweb04_login" />
+            <option name="CONTEXT_PATH" value="/javaweb_day05" />
           </settings>
         </artifact>
       </deployment>
@@ -291,11 +207,19 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="javaweb04_login" />
-          <artifact name="javaweb03_register" />
+          <artifact name="javaweb_day05" />
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.test01" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.76" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test01" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -314,7 +238,12 @@
       <workItem from="1662081509554" duration="10602000" />
       <workItem from="1662102620254" duration="3454000" />
       <workItem from="1662106162175" duration="5676000" />
-      <workItem from="1662117172432" duration="2793000" />
+      <workItem from="1662117172432" duration="2942000" />
+      <workItem from="1662166615553" duration="9959000" />
+      <workItem from="1662187622438" duration="281000" />
+      <workItem from="1662345162519" duration="25000" />
+      <workItem from="1662363446069" duration="14375000" />
+      <workItem from="1662427161267" duration="3634000" />
     </task>
     <task id="LOCAL-00001" summary="2022年8月30日20:12:04&#10;javaweb_day01">
       <created>1661861788297</created>
@@ -344,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662037179758</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2022年9月2日21:00:35&#10;javaweb_day04.xml">
+      <created>1662123666164</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662123666165</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,10 +298,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="2022年8月30日20:12:04&#10;javaweb_day01" />
     <MESSAGE value="2022年8月31日20:31:36&#10;javaweb_day02" />
     <MESSAGE value="2022年9月1日20:59:20&#10;javaweb_day03" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022年9月1日20:59:20&#10;javaweb_day03" />
+    <MESSAGE value="2022年9月2日21:00:35&#10;javaweb_day04" />
+    <MESSAGE value="2022年9月2日21:00:35&#10;javaweb_day04.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022年9月2日21:00:35&#10;javaweb_day04.xml" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
