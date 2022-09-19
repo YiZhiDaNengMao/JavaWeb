@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign in3</title>
+
+</head>
+<body>
+<form>
+    Username <input type="text" id="username"/>
+    <span id="uSpan"></span><br>
+    Password <input type="password" id="password"/><br>
+    <input type="button" value="Sign in" id="btn"/>
+</form>
+</body>
+<!--
+    参数：
+        url：请求的族源路径
+        async：是否异步请求，true/false
+        data：发送到服务器的数据，可以是键值对，也可以是js形式
+        type：请求方式（post/get[默认]）
+        dataType：相应返回的数据类型（xml,html,json,text）
+        error：请求失败时调用的回调函数
+        success：请求成功时调用的回调函数
+-->
+<script src="js/jquery-1.11.0.min.js"></script>
+<script>
+    $("#username").blur(function (){
+        $.ajax({
+            url: "UserServlet",
+            async: true,
+            data: "username=" + $("#username").val(),
+            type: "GET",
+            dataType: "text",
+            success: function (data){
+                $("#uSpan").html(data)
+            },
+            error: function (){
+                alert("操作失败!")
+            }
+        })
+    })
+</script>
+</html>

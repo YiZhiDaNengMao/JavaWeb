@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>register</title>
+    <script src="js/jquery-1.11.0.min.js"></script>
+</head>
+<body>
+<form>
+  Username <input type="text" id="username"/>
+  <span id="uSpan"></span><br>
+  Password <input type="password" id="password"/><br>
+  <input type="submit" value="Sign in" id="btn"/>
+</form>
+</body>
+<script>
+ $("#username").blur(function (){
+     let username = $("#username").val();
+     let span = $("#uSpan");
+     $.get(
+         "FindUserServlet",
+         {username:username},
+         function (data){
+             if(data.userExist){
+                 span.css("color","green");
+             } else {
+                 span.css("color","red");
+             }
+             span.html(data.msg);
+         },
+         "json"
+     )
+ })
+</script>
+</html>

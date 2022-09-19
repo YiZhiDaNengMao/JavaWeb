@@ -2,37 +2,154 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="javaweb_day05" />
+      <artifact name="javaweb_day09" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="60f9399e-4b47-4e89-a3a7-3cb833daaae0" name="Changes" comment="2022年9月2日21:00:35&#10;javaweb_day04.xml">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/javaweb_day05.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day04/src/CookieServletTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day05/javaweb_day05.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day05/src/servlet/a_cookie/CookieServlet01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day05/src/servlet/a_cookie/CookieServlet02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day05/src/servlet/a_cookie/CookieServlet03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day05/src/servlet/a_cookie/CookieServlet04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day05/src/servlet/a_cookie/CookieServlet05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day05/src/servlet/a_cookie/CookieServlet06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day05/src/servlet/a_cookie/CookieServletDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day05/src/servlet/b_session/SessionServlet01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day05/src/servlet/b_session/SessionServlet02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day05/src/servlet/b_session/SessionServlet03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day05/src/servlet/b_session/SessionServlet04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day05/src/servlet/b_session/SessionServlet05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day05/src/test/test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day05/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaweb_day05/web/index.jsp" afterDir="false" />
+    <list default="true" id="60f9399e-4b47-4e89-a3a7-3cb833daaae0" name="Changes" comment="2022年9月6日10:21:28&#10;javaweb_day05">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/javaweb07_manager.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/javaweb_day06.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/javaweb_day08.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/javaweb_day09.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/javaweb_day10_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb04_login/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/javaweb07_manager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/src/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/src/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/src/exception/LoginException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/src/pojo/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/src/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/src/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/src/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/src/utils/DruidUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/src/utils/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/src/web/CheckCodeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/src/web/DelSelectedServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/src/web/FindPageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/src/web/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/src/web/UserAddServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/src/web/UserDeleteServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/src/web/UserFindServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/src/web/UserListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/src/web/UserUpdateServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/src/web/filter/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/web/WEB-INF/lib/commons-beanutils-1.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/web/WEB-INF/lib/commons-collections-3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/web/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/web/WEB-INF/lib/druid-1.1.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/web/WEB-INF/lib/jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/web/WEB-INF/lib/mysql-connector-java-8.0.29.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/web/WEB-INF/lib/spring-beans-5.0.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/web/WEB-INF/lib/spring-core-5.0.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/web/WEB-INF/lib/spring-jdbc-5.0.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/web/WEB-INF/lib/spring-tx-5.0.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/web/WEB-INF/lib/standard.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/web/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/web/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/web/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/web/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/web/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/web/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/web/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/web/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/web/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/web/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/web/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/web/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/web/js/jquery-2.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/web/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb07_manager/web/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day06/javaweb_day06.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day06/src/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day06/src/servlet/CheckImgServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day06/src/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day06/web/02_JSP.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day06/web/03_Scope.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day06/web/04_JSP.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day06/web/05_JSP.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day06/web/WEB-INF/lib/jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day06/web/WEB-INF/lib/standard.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day06/web/WEB-INF/new_words.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day06/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day06/web/el/01_el.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day06/web/el/02_el.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day06/web/el/03_el.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day06/web/el/04_el.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day06/web/el/05_el.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day06/web/el/06_el.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day06/web/js/jquery-1.11.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day06/web/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day06/web/jstl/01_jstl.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day06/web/jstl/02_jstl.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day06/web/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day06/web/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day08/javaweb_day08.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day08/src/b_listener/MyListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day08/src/c_email/MailTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day08/src/c_email/MailUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day08/src/d_birthday/bean/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day08/src/d_birthday/utils/DruidUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day08/src/d_birthday/utils/MailUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day08/src/d_birthday/utils/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day08/src/d_birthday/web/listener/SendBlessing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day08/src/web/filter/FilterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day08/web/WEB-INF/lib/activation-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day08/web/WEB-INF/lib/mail.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day08/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day08/web/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day08/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day09/javaweb_day09.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day09/src/a_json/ObjectMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day09/src/com/star/web/FindUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day09/src/com/star/web/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day09/src/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day09/web/WEB-INF/lib/jackson-annotations-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day09/web/WEB-INF/lib/jackson-core-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day09/web/WEB-INF/lib/jackson-databind-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day09/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day09/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day09/web/js/jquery-1.11.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day09/web/json.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day09/web/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day09/web/signin1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day09/web/signin2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day09/web/signin3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day10/javaweb_day10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day10/src/com/star/web/test/JedisPoolTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day10/src/com/star/web/test/JedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day10/src/com/star/web/util/JedisPoolUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day10/src/com/star/web/util/jedis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day10/src/com/star/web/util/jedis详细配置.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day10/web/WEB-INF/lib/commons-pool2-2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day10/web/WEB-INF/lib/jedis-2.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day10/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaweb_day10/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaweb03_register/javaweb03_register.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb03_register/javaweb03_register.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaweb03_register/src/servlet/DownLoadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb03_register/src/servlet/DownLoadServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaweb03_register/web/download.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb03_register/web/download.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaweb03_register/web/download/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb03_register/web/download/a.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/javaweb_day04/WEB-INF/classes/servlet/ServletResponseDemo03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/javaweb_day04/WEB-INF/classes/servlet/ServletResponseDemo03.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaweb_day04/servlet/ServletResponseDemo03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaweb_day04/servlet/ServletResponseDemo03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaweb04_login/src/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb04_login/src/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaweb04_login/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb_day06/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaweb04_login/web/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaweb04_login/web/需求.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaweb_day01/web/default.htm" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb_day01/web/default.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaweb_day01/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb_day01/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaweb_day01/web/work.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb_day01/web/work.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaweb_day05/javaweb_day05.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaweb_day05/javaweb_day05.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/javaweb04_login/WEB-INF/classes/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/javaweb04_login/WEB-INF/classes/servlet/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/javaweb04_login/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/javaweb04_login/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/javaweb04_login/需求.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaweb04_login/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaweb04_login/servlet/LoginServlet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +164,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jsp File" />
         <option value="Interface" />
         <option value="HTML File" />
         <option value="Class" />
@@ -66,6 +184,22 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Maven\repository" />
+        <option name="mavenHome" value="E:/Downloads/Java/software/maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="E:\Downloads\Java\software\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2E41FhHcSEcB191WW7EBgfSJIoo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -78,58 +212,139 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
     &quot;Project.color&quot;: &quot;8e5aff&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/workspace_idea/javaweb/javaweb03_register/web/download&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/workspace_idea/javaweb/javaweb07_manager/src/dao&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/workspace_idea/travel&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;d41d8cd98f00b204e9800998ecf8427e&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="service.impl" />
+      <recent name="service" />
+      <recent name="dao.impl" />
+      <recent name="dao" />
+      <recent name="pojo.impl" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace_idea\javaweb\javaweb03_register\web\download" />
-      <recent name="D:\workspace_idea\javaweb\javaweb03_register\src\util" />
-      <recent name="D:\workspace_idea\javaweb\javaweb03_register\web\WEB-INF" />
-      <recent name="D:\workspace_idea\javaweb\javaweb03_register\web" />
-      <recent name="D:\workspace_idea\javaweb\javaweb03_register\src\servlet" />
+      <recent name="D:\workspace_idea\javaweb\javaweb_day10\src\com\star\web\tools" />
+      <recent name="D:\workspace_idea\javaweb\javaweb_day10\web\WEB-INF\lib" />
+      <recent name="D:\workspace_idea\javaweb\javaweb_day09\web\js" />
+      <recent name="D:\workspace_idea\javaweb\javaweb_day09\web\WEB-INF\lib" />
+      <recent name="D:\workspace_idea\javaweb\javaweb_day09\web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace_idea\javaweb\javaweb_day10\src\com\star\web\util" />
+      <recent name="D:\workspace_idea\javaweb\javaweb_day10\src" />
+      <recent name="D:\workspace_idea\javaweb\javaweb_day09\web\js" />
       <recent name="D:\workspace_idea\javaweb\javaweb03_register\web\WEB-INF\lib" />
       <recent name="D:\workspace_idea\javaweb\javaweb_day03_register\src\b_register\util" />
-      <recent name="D:\workspace_idea\javaweb\javaweb_day03\web\WEB-INF" />
-      <recent name="D:\workspace_idea\javaweb\javaweb_day03\src" />
-      <recent name="D:\workspace_idea\javaweb\javaweb_day03\src\b_register\utils" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="d_birthday.utils" />
+      <recent name="servlet" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.76">
-    <configuration name="test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.test01" />
-      <module name="javaweb_day05" />
+  <component name="RunManager" selected="JUnit.MailTest.test">
+    <configuration name="JedisPoolTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaweb_day10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="com.star.web.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.star.web.test" />
+      <option name="MAIN_CLASS_NAME" value="com.star.web.test.JedisPoolTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JedisPoolTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaweb_day10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.star.web.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.star.web.test" />
+      <option name="MAIN_CLASS_NAME" value="com.star.web.test.JedisPoolTest" />
+      <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JedisTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaweb_day10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.star.web.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.star.web.test" />
+      <option name="MAIN_CLASS_NAME" value="com.star.web.test.JedisTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MailTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaweb_day08" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="c_email.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="c_email" />
+      <option name="MAIN_CLASS_NAME" value="c_email.MailTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectMapperTest.test05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaweb_day09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="a_json.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="a_json" />
+      <option name="MAIN_CLASS_NAME" value="a_json.ObjectMapperTest" />
+      <option name="METHOD_NAME" value="test05" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Tomcat 8.5.76" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.76" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="BROWSER_ID" value="2d72af8c-a3b0-451d-b663-8b8621dde876" />
-      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="javaweb_day05">
+        <artifact name="javaweb_day09">
           <settings>
-            <option name="CONTEXT_PATH" value="/javaweb_day05" />
+            <option name="CONTEXT_PATH" value="/javaweb_day09" />
           </settings>
         </artifact>
       </deployment>
@@ -207,17 +422,25 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="javaweb_day05" />
+          <artifact name="javaweb_day09" />
         </option>
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.test01" />
+      <item itemvalue="JUnit.MailTest.test" />
+      <item itemvalue="JUnit.JedisPoolTest.test01" />
+      <item itemvalue="JUnit.JedisPoolTest.test02" />
+      <item itemvalue="JUnit.JedisTest.test01" />
+      <item itemvalue="JUnit.ObjectMapperTest.test05" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.76" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.test01" />
+        <item itemvalue="JUnit.MailTest.test" />
+        <item itemvalue="JUnit.JedisPoolTest.test01" />
+        <item itemvalue="JUnit.JedisPoolTest.test02" />
+        <item itemvalue="JUnit.JedisTest.test01" />
+        <item itemvalue="JUnit.ObjectMapperTest.test05" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +466,36 @@
       <workItem from="1662187622438" duration="281000" />
       <workItem from="1662345162519" duration="25000" />
       <workItem from="1662363446069" duration="14375000" />
-      <workItem from="1662427161267" duration="3634000" />
+      <workItem from="1662427161267" duration="25705000" />
+      <workItem from="1662513509262" duration="28809000" />
+      <workItem from="1662600415908" duration="7663000" />
+      <workItem from="1662616537363" duration="13471000" />
+      <workItem from="1662635428801" duration="4422000" />
+      <workItem from="1662687544501" duration="5550000" />
+      <workItem from="1662709809181" duration="5903000" />
+      <workItem from="1662973853913" duration="5393000" />
+      <workItem from="1663034794332" duration="23005000" />
+      <workItem from="1663068871800" duration="613000" />
+      <workItem from="1663223216850" duration="9169000" />
+      <workItem from="1663240881024" duration="1351000" />
+      <workItem from="1663244623869" duration="215000" />
+      <workItem from="1663245021235" duration="1877000" />
+      <workItem from="1663246950765" duration="121000" />
+      <workItem from="1663291829229" duration="52000" />
+      <workItem from="1663292025820" duration="2134000" />
+      <workItem from="1663297071822" duration="19000" />
+      <workItem from="1663297098470" duration="499000" />
+      <workItem from="1663299116578" duration="1056000" />
+      <workItem from="1663300817585" duration="3000" />
+      <workItem from="1663300915525" duration="134000" />
+      <workItem from="1663307813132" duration="158000" />
+      <workItem from="1663308786653" duration="165000" />
+      <workItem from="1663311022095" duration="587000" />
+      <workItem from="1663315090642" duration="11000" />
+      <workItem from="1663315189482" duration="587000" />
+      <workItem from="1663325456742" duration="995000" />
+      <workItem from="1663326545581" duration="5000" />
+      <workItem from="1663327877376" duration="29000" />
     </task>
     <task id="LOCAL-00001" summary="2022年8月30日20:12:04&#10;javaweb_day01">
       <created>1661861788297</created>
@@ -280,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662123666165</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2022年9月6日10:21:28&#10;javaweb_day05">
+      <created>1662430907190</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662430907190</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,7 +563,8 @@
     <MESSAGE value="2022年9月1日20:59:20&#10;javaweb_day03" />
     <MESSAGE value="2022年9月2日21:00:35&#10;javaweb_day04" />
     <MESSAGE value="2022年9月2日21:00:35&#10;javaweb_day04.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022年9月2日21:00:35&#10;javaweb_day04.xml" />
+    <MESSAGE value="2022年9月6日10:21:28&#10;javaweb_day05" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022年9月6日10:21:28&#10;javaweb_day05" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

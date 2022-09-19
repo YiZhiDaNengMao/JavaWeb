@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>$Sign in1$</title>
+    <style>
+        #btn{
+            border-radius: 6px;
+            background-color: #ffa1af;
+        }
+    </style>
+</head>
+<body>
+<form>
+    Username <input type="text" id="username"/>
+    <span id="uSpan"></span><br>
+    Password <input type="text" id="password"/><br>
+    <input type="submit" value="Sign in" id="btn"/>
+</form>
+</body>
+<script>
+    //1.给用户名输入框绑定 失去焦点事件
+    document.getElementById("username").onblur = function (){
+        //2.创建XMLRequest请求对象
+        let xmlHttp = new XMLHttpRequest()
+        //3.设置（同步/异步请求）
+        let username = document.getElementById("username").value
+        console.log(username)
+        xmlHttp.open("get", "UserServlet?username=" + username, true)
+        //4.发送请求
+        xmlHttp.send()
+        //5.处理请求
+        xmlHttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById("uSpan").innerHTML = this.responseText
+            }
+        }
+    }
+</script>
+</html>

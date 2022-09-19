@@ -5,11 +5,16 @@
       <module fileurl="file://$PROJECT_DIR$/javaweb.iml" filepath="$PROJECT_DIR$/javaweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb03_register/javaweb03_register.iml" filepath="$PROJECT_DIR$/javaweb03_register/javaweb03_register.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb04_login/javaweb04_login.iml" filepath="$PROJECT_DIR$/javaweb04_login/javaweb04_login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb07_manager/javaweb07_manager.iml" filepath="$PROJECT_DIR$/javaweb07_manager/javaweb07_manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb_day01/javaweb_day01.iml" filepath="$PROJECT_DIR$/javaweb_day01/javaweb_day01.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb_day02/javaweb_day02.iml" filepath="$PROJECT_DIR$/javaweb_day02/javaweb_day02.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb_day03/javaweb_day03.iml" filepath="$PROJECT_DIR$/javaweb_day03/javaweb_day03.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb_day04/javaweb_day04.iml" filepath="$PROJECT_DIR$/javaweb_day04/javaweb_day04.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb_day05/javaweb_day05.iml" filepath="$PROJECT_DIR$/javaweb_day05/javaweb_day05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb_day06/javaweb_day06.iml" filepath="$PROJECT_DIR$/javaweb_day06/javaweb_day06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb_day08/javaweb_day08.iml" filepath="$PROJECT_DIR$/javaweb_day08/javaweb_day08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb_day09/javaweb_day09.iml" filepath="$PROJECT_DIR$/javaweb_day09/javaweb_day09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb_day10/javaweb_day10.iml" filepath="$PROJECT_DIR$/javaweb_day10/javaweb_day10.iml" />
     </modules>
   </component>
 </project>

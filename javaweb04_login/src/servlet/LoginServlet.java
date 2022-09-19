@@ -32,7 +32,6 @@ public class LoginServlet extends HttpServlet {
         } catch (InvocationTargetException e) {
             throw new RuntimeException(e);
         }
-
         UserDaoImpl dao = new UserDaoImpl();
         User loginUser = dao.login(user);
         if(loginUser == null){

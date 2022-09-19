@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>$Sign in2$</title>
+</head>
+<body>
+<form>
+    Username <input type="text" id="username"/>
+    <span id="uSpan"></span><br>
+    Password <input type="password" id="password"/><br>
+    <input type="submit" value="Sign in" id="btn"/>
+</form>
+</body>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script>
+    $("#username").blur(function () {
+        let username = $("#username").val();
+        $.post(
+            "UserServlet",
+            {username:username},
+            function (data) {
+                $("#uSpan").html(data);
+            },
+            "text"
+        )
+
+    })
+</script>
+</html>
